@@ -1,19 +1,9 @@
-number = 23
-running = True
+#edited for python 3 and some basic arrangments
+#!editor :Barish
 
-while running:
-    guess = int(input('Enter an integer : '))
+a, b = 0, 1
+while b < 100:
+  print (b,)
+  break
+a, b = b, a+b
 
-    if guess == number:
-        print('Congratulations, you guessed it.')
-        # this causes the while loop to stop
-        running = False
-    elif guess < number:
-        print('No, it is a little higher than that.')
-    else:
-        print('No, it is a little lower than that.')
-else:
-    print('The while loop is over.')
-    # Do anything else you want to do here
-
-print('Done')
