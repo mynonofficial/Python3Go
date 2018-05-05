@@ -7,4 +7,4 @@ def getList(seq):
         else:
             newstring += getList(i)
     return newstring
-print getList(myseq)
+print (getList(myseq))
